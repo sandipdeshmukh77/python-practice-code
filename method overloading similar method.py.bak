@@ -1,0 +1,9 @@
+
+class test:
+	def m1(self,x):
+		print('{}-argument method'.format(x.__class__.__name__))
+t=test()
+t.m1(10)
+t.m1(10.9)
+t.m1('sam')
+t.m1(True)

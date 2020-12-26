@@ -1,0 +1,8 @@
+class test:
+	a=10
+	def __init__(self):
+		print(self.a)
+		print(test.a)
+t=test()
+
+

@@ -1,0 +1,29 @@
+16102020 083100 PM:INFO:A new request came
+16102020 083105 PM:INFO:request proceesing completed
+16102020 083202 PM:INFO:A new request came
+16102020 083207 PM:ERROR:division by zero
+Traceback (most recent call last):
+  File "E:\python tutorials\durga sir\code\test.py", line 7, in <module>
+    print(a/b)
+ZeroDivisionError: division by zero
+16102020 083207 PM:INFO:request proceesing completed
+16102020 083210 PM:INFO:A new request came
+16102020 083214 PM:INFO:request proceesing completed
+16102020 083218 PM:INFO:A new request came
+16102020 083224 PM:INFO:request proceesing completed
+16102020 083422 PM:INFO:A new request came
+16102020 083426 PM:INFO:request proceesing completed
+16102020 083501 PM:INFO:A new request came
+16102020 083507 PM:ERROR:invalid literal for int() with base 10: 'ter'
+Traceback (most recent call last):
+  File "E:\python tutorials\durga sir\code\test.py", line 6, in <module>
+    b=int(input('enter sencond number'))
+ValueError: invalid literal for int() with base 10: 'ter'
+16102020 083507 PM:INFO:request proceesing completed
+16/10/2020 08:36:22 PM:INFO:A new request came
+16/10/2020 08:36:32 PM:ERROR:division by zero
+Traceback (most recent call last):
+  File "E:\python tutorials\durga sir\code\test.py", line 8, in <module>
+    print(a/b)
+ZeroDivisionError: division by zero
+16/10/2020 08:36:32 PM:INFO:request proceesing completed

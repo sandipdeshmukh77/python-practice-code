@@ -1,0 +1,15 @@
+import pickle
+from emp import *
+with open('abc.dat','wb') as f:
+	while True:
+		eno=int(input('enter employee number:-'))
+		ename=input('enter employee name:-')
+		esal=float(input('enter salary:-'))
+		eaddr=input('enter address:-')
+		e=employee(eno,ename,esal,eaddr)
+		pickle.dump(e,f)
+		option=input('do you want to add more employee data[yes/no]:-')
+		if option.lower()=='no':
+			break
+
+print('serialization done successfully')
